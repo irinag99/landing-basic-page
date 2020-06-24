@@ -1,0 +1,203 @@
+body.states {
+    font-size: 16px;
+    font-family: 'karla';
+    font-weight: 400;
+    background-color: hsl(0, 0%, 98%);
+    margin: 0;
+}
+
+header {
+    font-weight: 400;
+    background-color: hsl(0, 0%, 98%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+    font-family: "DM Serif Display";
+}
+
+.states__titles a, .states__titles button {
+    margin: 0 10px;
+    text-transform: uppercase;
+    color: gray;
+}
+
+.states__titles button {
+    border: 2px black solid;
+    background-color: hsl(0, 0%, 98%);
+    padding: 10px;
+    font-weight: 700;
+    color: black;
+    font-family: "DM Serif Display";
+}
+
+.states__titles button:hover {
+    background-color: black;
+    color: hsl(0, 0%, 98%);
+}
+
+.states__color {
+    background: linear-gradient(180deg, hsl(256, 26%, 20%) 70%, hsl(0, 0%, 98%) 50%);
+}
+
+.states__pagina {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    max-width: 1200px;
+    margin: auto;
+    color: hsl(0, 0%, 98%);
+}
+
+.states__banner {
+    background-attachment: fixed;
+    padding: 0 10px;
+    width: 500px;
+    margin-top: 60px;
+}
+
+.states__parrafo {
+    max-width: 500px;
+}
+
+.states__banner img {
+    width: 500px;
+}
+
+.states__parrafo hr {
+    color: hsl(0, 87%, 18%);
+    width: 80px;
+    margin: 60px auto 0 0;
+    border-width: 1px;
+}
+
+.states__parrafo hr.hr {
+    margin: 98% auto 0 0;
+}
+
+.states__parrafo button {
+    border: 1px white solid;
+    background-color: hsl(256, 26%, 20%);
+    padding: 10px;
+    font-weight: 700;
+    color: white;
+    font-family: "DM Serif Display";
+    text-transform: uppercase;
+    width: 150px;
+    margin-top: 30px;
+}
+
+.states__parrafo h1 {
+    font-size: 55px;
+}
+
+.states__parrafo button:hover {
+    background-color: hsl(0, 0%, 98%);
+    color: black;
+}
+
+.states__secondtitle {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.states__options {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.states__secondtitle h1 {
+    padding: 0 50px 0 50px;
+    font-weight: 700;
+    font-size: 70px;
+    padding: 0 0 10px 0
+}
+
+.states__options article {
+    padding: 0 0 0 30px;
+}
+
+.state__work {
+    background-color: hsl(256, 26%, 20%);
+    max-width: 1200px;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 250px;
+    justify-content: space-between;
+}
+
+.state__work h1 {
+    color: hsl(0, 0%, 98%);
+    font-family: "DM Serif Display";
+    margin: auto;
+    padding: 20px 120px 20px 50px;
+    font-size: 55px;
+    width: 50%;
+}
+
+.state__work button {
+    border: 1px white solid;
+    background-color: hsl(256, 26%, 20%);
+    padding: 10px;
+    font-weight: 700;
+    color: white;
+    font-family: "DM Serif Display";
+    text-transform: uppercase;
+    height: 50px;
+    margin: auto;
+    width: 200px;
+}
+
+footer {
+    background-color: hsl(360, 11%, 93%);
+    width: 100%;
+}
+
+.state__footer {
+    background-color: hsl(360, 11%, 93%);
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 0 30px 0;
+}
+
+.state__social a {
+    padding: 0 10px 0 0;
+}
+
+footer hr {
+    max-width: 1200px;
+}
+
+.state__menu {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.state__menu ul {
+    padding: 0;
+}
+
+.state__menu h2 {
+    color: gray;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.state__menu li {
+    list-style: none;
+    padding: 5px 0;
+    font-size: 12px;
+    font-weight: bold;
+}
